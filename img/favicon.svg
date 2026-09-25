@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
+  <defs>
+    <!-- Gradiente Cian a Verde de SumaqCode -->
+    <linearGradient id="sumaqGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#00F5A0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo contenedor redondeado -->
+  <rect width="64" height="64" rx="16" fill="#0A0F1D"/>
+
+  <!-- Isotipo {S} optimizado para favicons -->
+  <g fill="none" stroke="url(#sumaqGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Llave izquierda { -->
+    <path d="M 20 16 C 20 24 14 28 14 32 C 14 36 20 40 20 48" />
+    <!-- Llave derecha } -->
+    <path d="M 44 16 C 44 24 50 28 50 32 C 50 36 44 40 44 48" />
+    <!-- Letra S central -->
+    <path d="M 36 23 C 28 21 26 29 32 32 C 38 35 36 43 28 41" stroke-width="5.5" />
+  </g>
+</svg>
